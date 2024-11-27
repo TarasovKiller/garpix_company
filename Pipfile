@@ -5,11 +5,13 @@ name = "pypi"
 
 [packages]
 django = "==4.2"
-garpixcms = "==4.6.0-rc24"
+garpixcms = ">=4.6.0-rc36"
 django-fsm = "*"
 drf-nested-routers = "*"
 django-filter = "==21.1"
 uwsgi = "==2.0.21"
+django-modeltranslation = "==0.19.2"
+
 
 [dev-packages]
 
