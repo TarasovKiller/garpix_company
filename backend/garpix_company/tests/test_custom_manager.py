@@ -1,7 +1,8 @@
 import pytest
+
 from app.models import Company, UserCompanyRole
-from garpix_company.models import InviteToCompany
 from garpix_company.helpers import COMPANY_STATUS_ENUM, CHOICES_INVITE_STATUS_ENUM
+from garpix_company.models import InviteToCompany
 
 
 @pytest.mark.django_db
