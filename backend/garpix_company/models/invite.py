@@ -50,7 +50,7 @@ class InviteToCompany(models.Model):
 
         if is_new:
             self.token = get_random_string(16)
-            email = self.email if self.email else self.user.email
+            email = self.email or self.user.email
             self.company.send_invite_notification(invite=self, email=email)
 
         super().save(*args, **kwargs)
