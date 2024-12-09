@@ -11,10 +11,10 @@ drf-nested-routers = "*"
 django-filter = "==21.1"
 uwsgi = "==2.0.21"
 django-modeltranslation = "==0.19.2"
-pytest = "*"
-pytest-django = "*"
 
 [dev-packages]
+pytest = "==7.4.2"
+pytest-django = "==4.5.2"
 
 [requires]
 python_version = "3.8"
